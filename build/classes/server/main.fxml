@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="220" prefWidth="500" xmlns:fx="http://javafx.com/fxml/1" fx:controller="server.MainController">
+    <TextArea fx:id="textArea" prefWidth="300" prefHeight="200" AnchorPane.topAnchor="10" AnchorPane.leftAnchor="10" editable="false"  />
+    <Label text="port1: " AnchorPane.leftAnchor="320" AnchorPane.topAnchor="13" />   
+    <Label text="port2: " AnchorPane.leftAnchor="320" AnchorPane.topAnchor="43" />   
+    <Label text="Players: " AnchorPane.leftAnchor="320" AnchorPane.topAnchor="73" />   
+    <TextField fx:id="psField" text="9998" AnchorPane.topAnchor="10" AnchorPane.leftAnchor="370" prefWidth="100"  />
+    <TextField fx:id="plField" text="9999" AnchorPane.topAnchor="40" AnchorPane.leftAnchor="370" prefWidth="100"  />
+    <TextField fx:id="numberField" text="2" AnchorPane.topAnchor="70" AnchorPane.leftAnchor="370" prefWidth="100" />
+    <Button fx:id="startButton" text="Start Server" onAction="#startServer" AnchorPane.topAnchor="110" AnchorPane.leftAnchor="320"  />
+    <Button fx:id="gameButton" text="Start Game" onAction="#startGame" AnchorPane.topAnchor="140" AnchorPane.leftAnchor="320"  />
+</AnchorPane>
